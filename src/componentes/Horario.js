@@ -2,7 +2,6 @@ import { Link, useParams } from "react-router-dom"
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-
 export default function Horario() {
 
     const { idFilme } = useParams()

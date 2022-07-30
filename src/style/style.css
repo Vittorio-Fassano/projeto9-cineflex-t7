@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    height: 67px;
+    width: 100%;
+    background-color: #C3CFD9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #E8833A;
+}
+
+h2 {
+    width: 375px;
+    height: 110px;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #293845;
+    margin: auto auto;
+}
+
+h3 {
+    width: 375px;
+    height: 110px;
+    font-family: 'Roboto';  
+    font-size: 24px;
+    color: #247A6B;
+    font-weight: 700 bold;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+    margin: auto auto;
+}
+
+.tela-filme {
+    width: 375px;
+    height: 100%;
+    margin: auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+
+.tela-sessoes {
+    width: 375px;
+    height: 100%;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    word-break: break-all;
+    word-wrap:break-word
+}
+
+.tela-filme-moldura {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+    height: 209px;
+    margin-left: 30px;
+    margin-top: 15px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+.tela-filme-foto {
+    width: 129px;
+    height: 193px;
+    border-radius: 3px;
+}
+
+.dia-data {
+    margin-left: 24px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+span {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #293845;
+}
+
+.boxes {
+    margin-top: 22px;
+    margin-left: 23px;
+    margin-bottom: 23px;
+    height: 43px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    height: 43px;
+    width: 83px;
+    margin-right: 10px;
+    background-color: #E8833A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.horarios {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.fundo {
+    height: 117px;
+    width: 375px;
+    background-color: #DFE6ED;
+    border-top: 1px solid #9EADBA;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    margin: auto auto;
+}
+
+.fundo p{
+    margin-left: 14px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #293845;
+}
+
+.fundo span {
+    margin-left: 14px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 30px;
+    color: #293845;
+    font-size: 20px;
+}
+
+.img-fundo {
+    width:48px;
+    height: 72px;
+    border-radius: 3px;
+}
+
+.moldura-img-fundo {
+    width: 64px;
+    height: 89px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    margin-left: 10px;
+}

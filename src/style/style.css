@@ -195,7 +195,7 @@ span {
     border-radius: 2px;
     margin-left: 10px;
 }
-/* testar*/
+
 .caixa-assentos {
     width: 335px;
     margin: auto auto;
@@ -336,7 +336,6 @@ input {
 }
 
 ::placeholder {
-    padding-left: 18px;
     color: #AFAFAF;
     font-family: 'Roboto';
     font-style: italic;

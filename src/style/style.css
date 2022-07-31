@@ -82,7 +82,7 @@ h3 {
     flex-direction: column;
     background-color: #ffffff;
     word-break: break-all;
-    word-wrap:break-word
+    word-wrap:break-word;
 }
 
 .tela-filme-moldura {
@@ -347,14 +347,14 @@ button {
     height: 42px;
     background: #E8833A;
     border-radius: 3px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 72px;
     color: white;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 18px;
     border: none;
-    margin-bottom: 20px;
+    
 }
 
 .filme-sessao {

@@ -16,20 +16,26 @@ export default function Filme() {
         })
     }, [])
 
-    return (
-        <>
-            <h2>Selecione o filme</h2>
-            <session className="tela-filme">
 
-                {imagens.map((imagem) => {
-                    const { posterURL, id } = imagem;
-                    return <div key={id} className="tela-filme-moldura">
-                        <Link to={`/sessoes/${id}`}>
-                        <img className="tela-filme-foto" src={posterURL}></img>
-                        </Link>
-                    </div>
-                })}
-            </session>
-        </>
-    )
+    if(imagens.length === 0) {
+        return (<div className="carregando">Carregando ...</div>)
+    } else {
+        return (
+            <>
+                <h2>Selecione o filme</h2>
+                <session className="tela-filme">
+    
+                    {imagens.map((imagem) => {
+                        const { posterURL, id } = imagem;
+                        return <div key={id} className="tela-filme-moldura">
+                            <Link to={`/sessoes/${id}`}>
+                            <img className="tela-filme-foto" src={posterURL}></img>
+                            </Link>
+                        </div>
+                    })}
+                </session>
+            </>
+        )
+    }
+    
 }

@@ -64,6 +64,16 @@ h3 {
     background-color: #ffffff;
 }
 
+.carregando {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #818181;
+}
+
 .tela-sessoes {
     width: 375px;
     height: 100%;
